@@ -1,0 +1,41 @@
+{
+    "dataset": {
+        "samples": 109395,
+        "patients": 47,
+        "columns": 43
+    },
+    "classes": {
+        "N": 90545,
+        "S": 2779,
+        "V": 7234,
+        "F": 802,
+        "Q": 8035
+    },
+    "features_used": 23,
+    "model": {
+        "learning_rate": 0.08,
+        "max_iter": 300,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "l2_regularization": 0.1,
+        "random_state": 42
+    },
+    "class_weights": {
+        "N": 1.0,
+        "S": 3.0,
+        "V": 1.0,
+        "F": 5.0,
+        "Q": 1.5
+    },
+    "saved_files": {
+        "model": "C:\\Users\\MrNobuddy\\Documents\\My Projects\\ML Project\\SmartECG-ML\\models\\final_ecg_hgb_model.joblib",
+        "feature_list": "C:\\Users\\MrNobuddy\\Documents\\My Projects\\ML Project\\SmartECG-ML\\models\\final_feature_list.json",
+        "configuration": "C:\\Users\\MrNobuddy\\Documents\\My Projects\\ML Project\\SmartECG-ML\\models\\final_model_config.json"
+    },
+    "reference_metrics": {
+        "accuracy": 0.8681749622926094,
+        "balanced_accuracy": 0.6057902261952295,
+        "macro_f1": 0.5561225479068235,
+        "weighted_f1": 0.880464111638375
+    }
+}

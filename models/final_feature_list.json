@@ -1,0 +1,59 @@
+{
+    "number_of_features": 23,
+    "features": [
+        "prev_rr",
+        "prev_hr",
+        "spectral_entropy",
+        "dominant_frequency",
+        "energy_ratio",
+        "morph_mean_abs_slope",
+        "morph_range",
+        "morph_max",
+        "morph_std",
+        "morph_slope30",
+        "morph_slope20",
+        "morph_annotation_amplitude",
+        "morph_rms",
+        "morph_annotation_pre30_diff",
+        "morph_pre30_energy_ratio",
+        "morph_pre10_mean",
+        "morph_annotation_pre20_diff",
+        "morph_pre20_energy_ratio",
+        "morph_max_positive_slope",
+        "morph_pre10_energy_ratio",
+        "morph_slope10",
+        "morph_max_negative_slope",
+        "morph_mean"
+    ],
+    "feature_groups": {
+        "rhythm": [
+            "prev_rr",
+            "prev_hr"
+        ],
+        "spectral": [
+            "spectral_entropy",
+            "dominant_frequency",
+            "energy_ratio"
+        ],
+        "morphology": [
+            "morph_mean_abs_slope",
+            "morph_range",
+            "morph_max",
+            "morph_std",
+            "morph_slope30",
+            "morph_slope20",
+            "morph_annotation_amplitude",
+            "morph_rms",
+            "morph_annotation_pre30_diff",
+            "morph_pre30_energy_ratio",
+            "morph_pre10_mean",
+            "morph_annotation_pre20_diff",
+            "morph_pre20_energy_ratio",
+            "morph_max_positive_slope",
+            "morph_pre10_energy_ratio",
+            "morph_slope10",
+            "morph_max_negative_slope",
+            "morph_mean"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "engine": "ECGLight",
+  "prefer_classical_fallback": true,
+  "ecglight_path": "third_party/ECGLight",
+  "ecglight_python": ".ecglight-venv/Scripts/python.exe",
+  "preferred_leads": ["II", "MLII", "I"],
+  "target_fs": 360,
+  "max_runtime_seconds": 180,
+  "min_quality_score": 0.55
+}

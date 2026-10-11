@@ -1,0 +1,33 @@
+# Python
+.venv/
+.ecglight-venv/
+**/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Local ECG data and generated analysis results
+data/raw/*
+data/processed/*
+!data/raw/README.txt
+!data/processed/README.txt
+data/external/
+results/
+
+# Separately installed third-party repositories and model archives
+third_party/ECG-Digitiser/
+third_party/ECG-Image-Kit/
+third_party/ECGLight/
+
+# Runtime logs and local secrets
+*.log
+.env
+**/.env
+
+# OS
+.DS_Store
+Thumbs.db

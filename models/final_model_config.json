@@ -1,0 +1,58 @@
+{
+    "project": "SmartECG-ML",
+    "model_name": "Final HistGradientBoosting ECG Beat Classifier",
+    "model_type": "HistGradientBoostingClassifier",
+    "classes": [
+        "N",
+        "S",
+        "V",
+        "F",
+        "Q"
+    ],
+    "number_of_training_samples": 109395,
+    "number_of_patients": 47,
+    "number_of_features": 23,
+    "features": [
+        "prev_rr",
+        "prev_hr",
+        "spectral_entropy",
+        "dominant_frequency",
+        "energy_ratio",
+        "morph_mean_abs_slope",
+        "morph_range",
+        "morph_max",
+        "morph_std",
+        "morph_slope30",
+        "morph_slope20",
+        "morph_annotation_amplitude",
+        "morph_rms",
+        "morph_annotation_pre30_diff",
+        "morph_pre30_energy_ratio",
+        "morph_pre10_mean",
+        "morph_annotation_pre20_diff",
+        "morph_pre20_energy_ratio",
+        "morph_max_positive_slope",
+        "morph_pre10_energy_ratio",
+        "morph_slope10",
+        "morph_max_negative_slope",
+        "morph_mean"
+    ],
+    "hyperparameters": {
+        "learning_rate": 0.08,
+        "max_iter": 300,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "l2_regularization": 0.1,
+        "random_state": 42
+    },
+    "class_weights": {
+        "N": 1.0,
+        "S": 3.0,
+        "V": 1.0,
+        "F": 5.0,
+        "Q": 1.5
+    },
+    "training_method": "Full available training dataset",
+    "evaluation_reference": "Step 43 patient-wise 3-fold OOF",
+    "evaluation_note": "Step 43 was a frozen post-selection OOF evaluation. Step 42 hyperparameters were selected using OOF results."
+}
